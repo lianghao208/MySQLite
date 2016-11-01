@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <Button
+        android:id="@+id/create_database"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Creat database"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/add_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/create_database"
+        android:text="Add data"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/update_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_data"
+        android:text="Update data"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/delete_data"
+        android:layout_below="@+id/update_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete data"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/query_data"
+        android:layout_below="@+id/delete_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Query data"
+        android:onClick="onClick"/>
+    <Button
+    android:id="@+id/replace_data"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/query_data"
+    android:text="Replace data"
+    android:onClick="onClick"/>
+</RelativeLayout>
